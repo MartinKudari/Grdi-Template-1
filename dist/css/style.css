@@ -1,0 +1,28 @@
+* {
+  margin: 0%;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* body {
+  font-family: sans-serif;
+  font-family: 30px;
+}
+
+[class^="box-"] {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border: 2px solid blue;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  height: 100vh;
+  gap: 10px;
+  -ms-grid-rows: auto 1fr auto;
+      grid-template-rows: auto 1fr auto;
+}
+/*# sourceMappingURL=style.css.map */
